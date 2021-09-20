@@ -1,0 +1,196 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+%\usepackage[14pt]{extsizes}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools}
+\usepackage{pgfplots}
+\usepackage{filecontents}
+\usepackage{indentfirst}
+\usepackage{eucal}
+\usepackage{enumitem}
+% Для \abs{}
+\usepackage{commath}
+\frenchspacing
+
+
+\usetikzlibrary{datavisualization}
+\usetikzlibrary{datavisualization.formats.functions}
+
+\usepackage[left=2cm,right=2cm, top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+% Для измененных титулов глав:
+\usepackage{titlesec, blindtext, color} % подключаем нужные пакеты
+\definecolor{gray75}{gray}{0.75} % определяем цвет
+\newcommand{\hsp}{\hspace{20pt}} % длина линии в 20pt
+% titleformat определяет стиль
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+% plot
+\usepackage{xcolor}
+\usepackage{stmaryrd}
+\usetikzlibrary{datavisualization}
+\usetikzlibrary{datavisualization.formats.functions}
+
+\begin{document}
+%\def\chaptername{} % убирает "Глава"
+    % Титульник
+    \thispagestyle{empty}
+    \begin{titlepage}
+        \noindent \begin{minipage}{0.15\textwidth}
+                      \includegraphics[width=\linewidth]{b_logo}
+        \end{minipage}
+        \noindent\begin{minipage}{0.9\textwidth}
+                     \centering
+                     \textbf{Министерство науки и высшего образования Российской Федерации}\\
+                     \textbf{Федеральное государственное бюджетное образовательное учреждение высшего образования}\\
+                     \textbf{~~~«Московский государственный технический университет имени Н.Э.~Баумана}\\
+                     \textbf{(национальный исследовательский университет)»}\\
+                     \textbf{(МГТУ им. Н.Э.~Баумана)}
+        \end{minipage}
+
+        \noindent\rule{18cm}{3pt}
+        \newline\newline
+        \noindent ФАКУЛЬТЕТ $\underline{\text{«Информатика и системы управления»}}$ \newline\newline
+        \noindent КАФЕДРА $\underline{\text{«Программное обеспечение ЭВМ и информационные технологии»}}$\newline\newline\newline\newline\newline
+
+
+        \begin{center}
+            \noindent\begin{minipage}{1.3\textwidth}
+                         \centering
+                         \Large\textbf{  Отчет по лабораторной работе №1}\newline
+                         \textbf{по дисциплине "Анализ алгоритмов"}\newline\newline
+            \end{minipage}
+        \end{center}
+
+        \noindent\textbf{Тема} $\underline{\text{Расстояние Левенштейна}}$\newline\newline
+        \noindent\textbf{Студент} $\underline{\text{Шацкий Р.Е.}}$\newline\newline
+        \noindent\textbf{Группа} $\underline{\text{ИУ7-55Б}}$\newline\newline
+        \noindent\textbf{Оценка (баллы)} $\underline{\text{~~~~~~~~~~~~~~~~~~~~~~~~~~~}}$\newline\newline
+        \noindent\textbf{Преподаватели} $\underline{\text{Волкова Л.Л., Строганов Ю.В.}}$\newline\newline\newline
+
+        \begin{center}
+            \vfill
+            Москва~---~\the\year
+            ~г.
+        \end{center}
+    \end{titlepage}
+
+    \tableofcontents
+
+    % Введение
+    \newpage
+    \chapter*{Введение}
+    \addcontentsline{toc}{chapter}{Введение}
+    \textbf{Расстояние Левенштейна} --- минимальное количество операций вставки одного символа, удаления одного символа
+    и замены одного символа на другой, необходимых для преобразования одной строки в другую.
+
+    Расстояние Левенштейна применяется в теории информации и компьютерной лингвистике для:
+    \begin{itemize}
+        \item Исправления ошибок в слове
+        \item Сравнения текстовых файлов утилитой diff
+        \item Для сравнения генов, хромосом и белков в биоинформатике
+    \end{itemize}
+
+    Цели лабораторной работы:
+    \begin{enumerate}
+        \item Изучить методы динамического программирования на основе алгоритмов нахождения расстояния
+        Левенштейна и Дамерау-Левенштейна
+        \item Оценить реализации алгоритмов нахождения расстояния Левенштейна и Дамерау-Левенштейна
+    \end{enumerate}
+
+    Задачи лабораторной работы:
+    \begin{enumerate}
+        \item Изучить принципы работы алгоритмов Левенштейна и Дамерау-Левенштейна
+        \item Применить методы динамического программирования для матричной реализации указанных алгоритмов
+        \item Получить практические навыки реализации данных алгоритмов: итерационные и рекурсивные версии
+        \item Сравнить итерационные и рекурсивные реализации алгоритмов по затрачиваемым ресурсам (время и память)
+        \item Получить экспериментальным методом различия во временной эффективности алгоритмов
+        \item Описать и обосновать полученные результаты в отчете о выполненной лабораторной работе
+        в формате расчетно-пояснительной записки
+    \end{enumerate}
+
+    % Аналитическая часть
+    \newpage
+
+
+    \chapter{Аналитическая часть}
+
+    Расстояние Левенштейна \cite{Levenshtein} между двумя строками ---
+    минимальное количество операций вставки одного символа, удаления одного символа
+    и замены одного символа на другой, необходимых для преобразования одной строки в другую.
+
+    Цена каждой операции может зависеть от вида операции или от участвующих в ней символов, отражающих вероятность
+    разных ошибок при вводе текста.
+    \\
+    Виды операций и их цены:
+    \begin{enumerate}
+        \item Вставка (insert), $w(a,\lambda)$ --- цена удаления символа $a$
+        \item Удаление (delete), $w(\lambda, b)$ --- цена вставки символа $b$
+        \item Замена (replace), $w(a, b)$ --- цена замены символа $a$ на символ $b$
+    \end{enumerate}
+
+    Для решения задачи о нахождении редакционного расстояния необходимо найти последовательность замен, при которых
+    суммарная цена операций будет минимальной. Расстояние Левенштейна - частный случай решения этой задачи
+    при заданных условиях:
+    \begin{itemize}
+        \item $w(a, a) = 0$
+        \item $w(a, b) = 1, a \neq b$
+        \item $w(a, \lambda) = 1$
+        \item $w(\lambda, b) = 1$
+    \end{itemize}
+
+    \section{Рекурсивный алгоритм нахождения расстояния Левенштейна}
+    В основе вычисления расстояние Левенштейна между двумя строками a и b лежит формула~\ref{eq:D},
+    где:
+    \begin{itemize}
+        \item $\abs{a}$ означает длину строки $a$
+        \item $a[i]$ - \emph{i}-ый символ строки $a$
+    \end{itemize}
+
+    \begin{equation}
+        \label{eq:D}
+        D(i, j) = \begin{cases}
+                      0 &\text{i = 0, j = 0} \\
+                      i &\text{j = 0, i > 0} \\
+                      j &\text{i = 0, j >0} \\
+                      \min \lbrace \\
+                      \qquad D(i, j - 1) + 1 \\
+                      \qquad D(i - 1, j) + 1 &\text{i > 0, j > 0} \\
+                      \qquad D(i - 1, j - 1) + m(a[i], b[j]) &\text{\ref{eq:m}} \\
+                      \rbrace
+        \end{cases}
+    \end{equation}
+
+    Функция 1.2 позволяет сравнить два символа:
+    \begin{equation}
+        \label{eq:m}
+        m(a, b) = \begin{cases}
+                      0 &\text{a = b} \\
+                      1 &\text{иначе}
+        \end{cases}
+    \end{equation}
+
+    Рекурсивный алгоритм реализует формулу~\ref{eq:D}. Логика функции $D$ состоит в следующем:
+    \begin{enumerate}
+        \item Для получения из пустой строки пустой строки, требуется 0 операций
+        \item Для получения из пустой строки строки $b$ требуется \abs{b} операций (все - insert)
+        \item Для получения из строки $a$ пустой строки требуется \abs{a} операций (все - delete)
+        \item Для получения из строки $a$ строки $b$ требуется выполнить несколько операций.
+        Обозначая $a'$ и $b'$ за строки $a$ и $b$ без последнего символа соответсвенно, цену преобразования 
+        из строки $a$ в $b$ можно выразить следующим образом:
+        \begin{enumerate}
+            \item Сумма цены преобразования строки a' в b и цены операции удаления (для преобразования a' в a)
+            \item Сумма цены преобразования строки a в b' и цены операции вставки (для преобразования b' в b)
+            \item Сумма цены преобразования строки a' в b' и операции замены
+            (если a и b оканчиваются на разные символы)
+            \item Цена преобразования строки a' в b' (если a и b оканчиваются на одинаковый символ)
+        \end{enumerate}
+        Минимальная цена преобразования - минимальное значение из приведенных выше вариантов.
+    \end{enumerate}
+
+    \section{Итерационный алгоритм нахождения расстояния Левенштейна с использованием матрицы}
+
+
+\end{document}
