@@ -32,9 +32,13 @@ public class StringDistanceAlgorithmsTester {
             nano += threadMXBean.getThreadCpuTime(id);
         }
         System.out.printf("\tCPU time: %s ns\n", nano / repeatTimes);
+        System.out.println("\tОтвет: " + alg.findDifference());
     }
 
     public void testAllAlgs() {
+        System.out.println("_________________");
+        System.out.println("Слово 1 - " + test1 + ", слово 2 - " + test2);
+        System.out.println("Количество повторов - " + repeatTimes + ", для рекурсивных - " + repeatRecursionTimes);
         testAlg(new LevCasualMatrix(test1, test2), "Алгоритм Левенштейна (Итерационный)", repeatTimes);
         if (repeatRecursionTimes > 0) {
             testAlg(new LevRecursion(test1, test2), "Алгоритм Левенштейна (Рекурсивный)", repeatRecursionTimes);
