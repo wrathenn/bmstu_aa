@@ -5,8 +5,8 @@
       <compiler-path />
       <compiler-arguments />
       <envs />
-      <main-file>$PROJECT_DIR$/docs/report_1.tex</main-file>
-      <aux-dir>$PROJECT_DIR$/auxil</aux-dir>
+      <main-file>$PROJECT_DIR$/lab1/docs/report_1.tex</main-file>
+      <aux-dir>$APPLICATION_HOME_DIR$/jbr/bin</aux-dir>
     </texify-bibtex>
     <method v="2" />
   </configuration>
