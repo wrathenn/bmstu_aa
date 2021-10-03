@@ -4,13 +4,13 @@
       <compiler>PDFLATEX</compiler>
       <compiler-path />
       <sumatra-path />
-      <pdf-viewer>NONE</pdf-viewer>
+      <pdf-viewer>BUILT-IN-PDF-VIEWER</pdf-viewer>
       <viewer-command />
       <compiler-arguments />
       <envs />
-      <main-file>$PROJECT_DIR$/lab1/docs/report_1.tex</main-file>
+      <main-file>$PROJECT_DIR$/docs/report_1.tex</main-file>
       <output-path>$PROJECT_DIR$/out</output-path>
-      <auxil-path>$PROJECT_DIR$/out</auxil-path>
+      <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
       <compile-twice>false</compile-twice>
       <output-format>PDF</output-format>
       <latex-distribution>MIKTEX</latex-distribution>
@@ -18,6 +18,8 @@
       <bib-run-config>[BibTeX.report_1 bibliography]</bib-run-config>
       <makeindex-run-config>[]</makeindex-run-config>
     </texify>
-    <method v="2" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="report_1 bibliography" run_configuration_type="BIBTEX_RUN_CONFIGURATION" />
+    </method>
   </configuration>
 </component>

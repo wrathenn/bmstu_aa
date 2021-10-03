@@ -1,4 +1,4 @@
 *.iml
-*/out/
+*out/
 .idea
-*/auxil/
+*auxil/
