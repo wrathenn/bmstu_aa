@@ -7,7 +7,7 @@ public class MatrixVinogradMultiplier implements MatrixMultiplier {
             return null;
         }
 
-        if (m1.length != m2[0].length) {
+        if (m1[0].length != m2.length) {
             return null;
         }
 

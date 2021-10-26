@@ -7,7 +7,7 @@ public class MatrixVinogradOptimisedMultiplier implements MatrixMultiplier {
             return null;
         }
 
-        if (m1.length != m2[0].length) {
+        if (m1[0].length != m2.length) {
             return null;
         }
 
@@ -38,8 +38,8 @@ public class MatrixVinogradOptimisedMultiplier implements MatrixMultiplier {
                 int buffer = rowFactor[i] - colFactor[j];
 
                 for (int k = 0; k < cols1 - 1; k += 2) {
-                    buffer += (m1[i][2 * k] + m2[2 * k + 1][j]) *
-                            (m1[i][2 * k + 1] + m2[2 * k][j]);
+                    buffer += (m1[i][k] + m2[k + 1][j]) *
+                            (m1[i][k + 1] + m2[k][j]);
                 }
 
                 if (cols1 % 2 == 1) {
