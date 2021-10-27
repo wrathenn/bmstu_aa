@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  26 OCT 2021 21:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.20)  27 OCT 2021 12:40
 entering extended mode
 **./report_4.tex
 (report_4.tex
@@ -1154,37 +1154,18 @@ LaTeX Warning: Citation `Olukotun' on page 2 undefined on input line 118.
 
 ] [3]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-report_4.tex:164: Missing $ inserted.
+report_4.tex:192: Missing $ inserted.
 <inserted text> 
                 $
-l.164 ...1$, $2 \times 2$, $3 \times 23, $n \times
-                                                   1n.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-report_4.tex:165: Missing $ inserted.
-<inserted text> 
-                $
-l.165 
+l.192 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[4
-
-]
-report_4.tex:193: Missing $ inserted.
-<inserted text> 
-                $
-l.193 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-report_4.tex:193: Missing } inserted.
+report_4.tex:192: Missing } inserted.
 <inserted text> 
                 }
-l.193 
+l.192 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1192,10 +1173,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-report_4.tex:193: Missing } inserted.
+report_4.tex:192: Missing } inserted.
 <inserted text> 
                 }
-l.193 
+l.192 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1203,56 +1184,56 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-report_4.tex:193: Missing \cr inserted.
+report_4.tex:192: Missing \cr inserted.
 <inserted text> 
                 \cr 
-l.193 
+l.192 
       
 I'm guessing that you meant to end an alignment here.
 
-report_4.tex:193: Missing { inserted.
+report_4.tex:192: Missing { inserted.
 <inserted text> 
                 {
-l.193 
+l.192 
       
 I've put in what seems to be necessary to fix
 the current column of the current alignment.
 Try to go on, since this might almost work.
 
-report_4.tex:193: Missing $ inserted.
+report_4.tex:192: Missing $ inserted.
 <inserted text> 
                 $
-l.193 
+l.192 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-report_4.tex:194: Missing $ inserted.
+report_4.tex:193: Missing $ inserted.
 <inserted text> 
                 $
-l.194             \Delta
+l.193             \Delta
                          = \begin{vmatrix}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-report_4.tex:215: Package amsmath Error: Multiple \label's: label 'eq:det_3x3' 
+report_4.tex:214: Package amsmath Error: Multiple \label's: label 'eq:det_3x3' 
 will be lost.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.215 ...3}a_{21}a_{32} - a_{13}a_{22}a_{31}\label
+l.214 ...3}a_{21}a_{32} - a_{13}a_{22}a_{31}\label
                                                   {eq:equation}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-report_4.tex:216: Misplaced \crcr.
+report_4.tex:215: Misplaced \crcr.
 \endaligned ->\crcr 
                     \egroup \restorecolumn@ \egroup 
-l.216         \end{aligned}
+l.215         \end{aligned}
                            
 I can't figure out why you would want to use a tab mark
 or \cr or \span just now. If something like a right brace
@@ -1260,10 +1241,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-report_4.tex:216: Extra }, or forgotten $.
+report_4.tex:215: Extra }, or forgotten $.
 \endaligned ->\crcr \egroup 
                             \restorecolumn@ \egroup 
-l.216         \end{aligned}
+l.215         \end{aligned}
                            
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1271,10 +1252,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-report_4.tex:216: Extra }, or forgotten $.
+report_4.tex:215: Extra }, or forgotten $.
 \endaligned ...cr \egroup \restorecolumn@ \egroup 
                                                   
-l.216         \end{aligned}
+l.215         \end{aligned}
                            
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1282,10 +1263,10 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-report_4.tex:216: Missing $ inserted.
+report_4.tex:215: Missing $ inserted.
 <inserted text> 
                 $
-l.216         \end{aligned}
+l.215         \end{aligned}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1293,11 +1274,64 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-report_4.tex:216: Missing } inserted.
+report_4.tex:215: Missing } inserted.
 <inserted text> 
                 }
-l.216         \end{aligned}
+l.215         \end{aligned}
                            
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[4
+
+]
+report_4.tex:229: Display math should end with $$.
+<to be read again> 
+                   M
+l.229         , \text{ РіРґРµ} $M
+                                 _{j}^{-1}$ - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+report_4.tex:229: Missing $ inserted.
+<inserted text> 
+                $
+l.229         , \text{ РіРґРµ} $M_
+                                  {j}^{-1}$ - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+report_4.tex:230: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230     \end{equation}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+report_4.tex:230: You can't use `\eqno' in horizontal mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.230     \end{equation}
+                        
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+report_4.tex:230: Missing $ inserted.
+<inserted text> 
+                $
+l.230     \end{equation}
+                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1306,182 +1340,381 @@ my insertion and my current dilemma will both disappear.
 
 report_4.tex:230: Display math should end with $$.
 <to be read again> 
-                   M
-l.230         , \text{ РіРґРµ} $M
-                                 _{j}^{-1}$ - Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-report_4.tex:230: Missing $ inserted.
-<inserted text> 
-                $
-l.230         , \text{ РіРґРµ} $M_
-                                  {j}^{-1}$ - Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-report_4.tex:231: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.231     \end{equation}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-report_4.tex:231: You can't use `\eqno' in horizontal mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.231     \end{equation}
-                        
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-report_4.tex:231: Missing $ inserted.
-<inserted text> 
-                $
-l.231     \end{equation}
-                        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-report_4.tex:231: Display math should end with $$.
-<to be read again> 
                    \endgroup 
-l.231     \end{equation}
+l.230     \end{equation}
                         
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
 [5]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-<img/MatrixMultiplication.pdf, id=38, 760.8425pt x 1052.93375pt>
-File: img/MatrixMultiplication.pdf Graphic file (type pdf)
-<use img/MatrixMultiplication.pdf>
-Package pdftex.def Info: img/MatrixMultiplication.pdf  used on input line 258.
-(pdftex.def)             Requested size: 425.41444pt x 588.73917pt.
+<img/count_det.pdf, id=38, 1206.5075pt x 1240.635pt>
+File: img/count_det.pdf Graphic file (type pdf)
+<use img/count_det.pdf>
+Package pdftex.def Info: img/count_det.pdf  used on input line 259.
+(pdftex.def)             Requested size: 500.484pt x 514.62677pt.
 
-report_4.tex:262: LaTeX Error: Something's wrong--perhaps a missing \item.
+report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262             \end{center}}
+l.263             \end{center}}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-report_4.tex:262: LaTeX Error: Something's wrong--perhaps a missing \item.
+report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262             \end{center}}
+l.263             \end{center}}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-report_4.tex:262: LaTeX Error: Something's wrong--perhaps a missing \item.
+report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262             \end{center}}
+l.263             \end{center}}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-report_4.tex:262: LaTeX Error: Something's wrong--perhaps a missing \item.
+report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262             \end{center}}
+l.263             \end{center}}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-report_4.tex:262: LaTeX Error: Something's wrong--perhaps a missing \item.
+report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262             \end{center}}
+l.263             \end{center}}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-report_4.tex:262: LaTeX Error: Something's wrong--perhaps a missing \item.
+report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262             \end{center}}
+l.263             \end{center}}
                                
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [6
 
-] [7 <./img/MatrixMultiplication.pdf>] [8]
-{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-
-LaTeX Warning: Citation `Python' on page 9 undefined on input line 287.
-
-
-LaTeX Warning: Reference `code:' on page 9 undefined on input line 297.
-
-
-LaTeX Warning: Reference `code:' on page 9 undefined on input line 297.
+]
+<img/thread_schema.pdf, id=43, 510.90875pt x 779.91376pt>
+File: img/thread_schema.pdf Graphic file (type pdf)
+<use img/thread_schema.pdf>
+Package pdftex.def Info: img/thread_schema.pdf  used on input line 272.
+(pdftex.def)             Requested size: 425.41444pt x 649.39896pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-report_4.tex:469: LaTeX Error: There's no line here to end.
+report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.469 
+l.276             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[7 <./img/count_det.pdf>]
+Overfull \vbox (25.22269pt too high) has occurred while \output is active []
+
+
+[8 <./img/thread_schema.pdf>]
+<img/solver_part_1.pdf, id=52, 838.13126pt x 1240.635pt>
+File: img/solver_part_1.pdf Graphic file (type pdf)
+<use img/solver_part_1.pdf>
+Package pdftex.def Info: img/solver_part_1.pdf  used on input line 285.
+(pdftex.def)             Requested size: 425.41444pt x 629.70552pt.
+
+
+report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.289             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[9]
+Overfull \vbox (5.52925pt too high) has occurred while \output is active []
+
+
+[10 <./img/solver_part_1.pdf>]
+<img/solver_part_2.pdf, id=60, 889.3225pt x 1241.63875pt>
+File: img/solver_part_2.pdf Graphic file (type pdf)
+<use img/solver_part_2.pdf>
+Package pdftex.def Info: img/solver_part_2.pdf  used on input line 295.
+(pdftex.def)             Requested size: 450.43253pt x 628.86984pt.
+
+
+report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299             \end{center}}
+                               
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \vbox (4.69357pt too high) has occurred while \output is active []
+
+
+[11 <./img/solver_part_2.pdf>] [12]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+
+LaTeX Warning: Citation `Python' on page 13 undefined on input line 340.
+
+
+LaTeX Warning: Reference `code:' on page 13 undefined on input line 350.
+
+
+LaTeX Warning: Reference `code:' on page 13 undefined on input line 350.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+report_4.tex:522: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.522 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[9
+[13
 
-] [10]
+] [14]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
 
-report_4.tex:485: LaTeX Error: File `images/example1' not found.
+report_4.tex:538: LaTeX Error: File `images/example1' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.485 ...ics[width=0.7\linewidth]{images/example1}
+l.538 ...ics[width=0.7\linewidth]{images/example1}
                                                   
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
@@ -1489,13 +1722,13 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-report_4.tex:492: LaTeX Error: File `images/example2' not found.
+report_4.tex:545: LaTeX Error: File `images/example2' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.492 ...ics[width=0.7\linewidth]{images/example2}
+l.545 ...ics[width=0.7\linewidth]{images/example2}
                                                   
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
@@ -1506,13 +1739,13 @@ If that doesn't work, type  X <return>  to quit.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-report_4.tex:555: LaTeX Error: File `images/odd_mat' not found.
+report_4.tex:608: LaTeX Error: File `images/odd_mat' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.555 ...aphics[width=1\linewidth]{images/odd_mat}
+l.608 ...aphics[width=1\linewidth]{images/odd_mat}
                                                   
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
@@ -1520,28 +1753,28 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-report_4.tex:562: LaTeX Error: File `images/even_mat' not found.
+report_4.tex:615: LaTeX Error: File `images/even_mat' not found.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.562 ...phics[width=1\linewidth]{images/even_mat}
+l.615 ...phics[width=1\linewidth]{images/even_mat}
                                                   
 I could not locate the file with any of these extensions:
 .pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[11
+[15
 
 ]
-Underfull \hbox (badness 7186) in paragraph at lines 570--581
+Underfull \hbox (badness 7186) in paragraph at lines 623--634
 []\T2A/cmr/m/n/12 По ре-зуль-та-там про-ве-ден-ных за-ме-ров вид-но, что оп-ти-
 ми-зи-ро-ван-ный ал-го-ритм
  []
 
-[12] [13
+[16] [17
 
 ] (D:/Prog\bmstu_aa\lab4\out\report_4.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 12--17
@@ -1572,7 +1805,7 @@ ntel-core-i57600-processor-6m-
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 62.
 See the caption package documentation for explanation.
 
-[14
+[18
 
 ] (D:/Prog\bmstu_aa\lab4\out\report_4.aux
 (D:/Prog\bmstu_aa\lab4\out\title.aux))
@@ -1581,10 +1814,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 31436 strings out of 478864
- 756039 string characters out of 2865625
+ 31466 strings out of 478864
+ 756721 string characters out of 2865625
  1385793 words of memory out of 3000000
- 48807 multiletter control sequences out of 15000+600000
+ 48834 multiletter control sequences out of 15000+600000
  422460 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,103p,732b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1601,10 +1834,10 @@ mi8.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/latex/fonts/type
 1/public/amsfonts/cm/cmr8.pfb><D:/latex/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><D:/latex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/latex/fonts/type1/pub
 lic/amsfonts/symbols/msbm10.pfb>
-Output written on D:/Prog\bmstu_aa\lab4\out\report_4.pdf (15 pages, 291937 byte
+Output written on D:/Prog\bmstu_aa\lab4\out\report_4.pdf (19 pages, 524654 byte
 s).
 PDF statistics:
- 432 PDF objects out of 1000 (max. 8388607)
+ 460 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

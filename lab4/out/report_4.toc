@@ -11,17 +11,18 @@
 \contentsline {chapter}{\numberline {2}Конструкторская часть}{6}{}%
 \contentsline {section}{\numberline {2.1}Схемы алгоритмов}{6}{}%
 \contentsline {subsection}{\numberline {2.1.1}Схема классического алгоритма}{6}{}%
-\contentsline {section}{\numberline {2.2}Вывод}{8}{}%
-\contentsline {chapter}{\numberline {3}Технологическая часть}{9}{}%
-\contentsline {section}{\numberline {3.1}Требования к программному обеспечению}{9}{}%
-\contentsline {section}{\numberline {3.2}Средства реализации}{9}{}%
-\contentsline {section}{\numberline {3.3}Реализация алгоритмов}{9}{}%
-\contentsline {section}{\numberline {3.4}Тестирование}{9}{}%
-\contentsline {section}{\numberline {3.5}Вывод}{9}{}%
-\contentsline {chapter}{\numberline {4}Экспериментальная часть}{11}{}%
-\contentsline {section}{\numberline {4.1}Пример работы программы}{11}{}%
-\contentsline {section}{\numberline {4.2}Технические характеристики}{11}{}%
-\contentsline {section}{\numberline {4.3}Время выполнения алгоритмов}{11}{}%
-\contentsline {section}{\numberline {4.4}Вывод}{12}{}%
-\contentsline {chapter}{Заключение}{13}{}%
-\contentsline {chapter}{Литература}{14}{}%
+\contentsline {subsection}{\numberline {2.1.2}Теоретический рассчет эффективности по времени}{12}{}%
+\contentsline {section}{\numberline {2.2}Вывод}{12}{}%
+\contentsline {chapter}{\numberline {3}Технологическая часть}{13}{}%
+\contentsline {section}{\numberline {3.1}Требования к программному обеспечению}{13}{}%
+\contentsline {section}{\numberline {3.2}Средства реализации}{13}{}%
+\contentsline {section}{\numberline {3.3}Реализация алгоритмов}{13}{}%
+\contentsline {section}{\numberline {3.4}Тестирование}{13}{}%
+\contentsline {section}{\numberline {3.5}Вывод}{13}{}%
+\contentsline {chapter}{\numberline {4}Экспериментальная часть}{15}{}%
+\contentsline {section}{\numberline {4.1}Пример работы программы}{15}{}%
+\contentsline {section}{\numberline {4.2}Технические характеристики}{15}{}%
+\contentsline {section}{\numberline {4.3}Время выполнения алгоритмов}{15}{}%
+\contentsline {section}{\numberline {4.4}Вывод}{16}{}%
+\contentsline {chapter}{Заключение}{17}{}%
+\contentsline {chapter}{Литература}{18}{}%
