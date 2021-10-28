@@ -187,38 +187,47 @@
 
 
     \chapter{Конструкторская часть}
-    Данный раздел содержит схемы алгоритмов, реализуемых в работе
+    Данный раздел требования к разрабатываемому программному обеспечению,
+    содержит схемы алгоритмов, реализуемых в работе
     (классический, Копперсмита-Винограда и оптимизированный Копперсмита-Винограда),
     а также теоретические вычисления трудоемкости для каждого из них.
+
+
+    \section{Требования к программному обеспечению}
+    Требования, выдвигаемые к разрабатываемому ПО:
+    \begin{itemize}
+        \item предусмотреть возможность просмотра результатов тестирования алгоритмов;
+        \item предусмотреть возможность просмотра процессорного времени, использованного алгоритмами;
+        \item входные данные - размеры двух матриц, их элементы;
+        \item выходные данные - матрица, являющаяся произведением первой входной матрицы на вторую.
+    \end{itemize}
 
 
     \section{Схемы алгоритмов}
     В данном пункте раздела представлены схемы реализуемых в работе алгоритмов.
 
     \subsection{Схема классического алгоритма}
-    На рисунке \ref{fig:matmult} представлена схема обычного алгоритма умножения матриц.
+    На рисунке~\ref{fig:matmult} представлена схема обычного алгоритма умножения матриц.
 
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.85\linewidth]{img/MatrixMultiplication}
         \caption{
-            \begin{center}
                 Схема стандартного алгоритма умножения матриц
-            \end{center}}
+            }
         \label{fig:matmult}
     \end{figure}
 
     \subsection{Схема алгоритма Копперсмита-Винограда}
-    На рисунках \ref{fig:vin_mulh}-\ref{fig:vinograd} представлены схемы алгоритма Копперсмита-Винограда
+    На рисунках~\ref{fig:vin_mulh}-\ref{fig:vinograd} представлены схемы алгоритма Копперсмита-Винограда
     умножения матриц.
 
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.8\linewidth]{img/vinograd_get_mulh}
         \caption{
-            \begin{center}
                 Схема функции предварительной обработки первой матрицы для алгоритма Винограда
-            \end{center}}
+            }
         \label{fig:vin_mulh}
     \end{figure}
 
@@ -226,9 +235,8 @@
         \centering
         \includegraphics[width=0.85\linewidth]{img/vinograd_get_mulv}
         \caption{
-            \begin{center}
                 Схема функции предварительной обработки второй матрицы для алгоритма Винограда
-            \end{center}}
+            }
         \label{fig:vin_mulv}
     \end{figure}
 
@@ -236,9 +244,8 @@
         \centering
         \includegraphics[width=0.85\linewidth]{img/vinograd}
         \caption{
-            \begin{center}
                 Схема алгоритма Винограда
-            \end{center}}
+            }
         \label{fig:vinograd}
     \end{figure}
 
@@ -260,9 +267,7 @@
         \centering
         \includegraphics[width=0.85\linewidth]{img/vinogradOptimise_get_mulh}
         \caption{
-            \begin{center}
                 Схема функции предварительной обработки первой матрицы для оптимизированного алгоритма Винограда
-            \end{center}
         }
         \label{fig:opt_vin_mulh}
     \end{figure}
@@ -271,20 +276,17 @@
         \centering
         \includegraphics[width=0.9\linewidth]{img/vinogradOptimise_get_mulv}
         \caption{
-            \begin{center}
                 Схема функции предварительной обработки второй матрицы для оптимизированного алгоритма Винограда
-            \end{center}
         }
         \label{fig:opt_vin_mulv}
     \end{figure}
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=1\linewidth]{img/VinogradOptimise}
+        \includegraphics[width=0.85\linewidth]{img/VinogradOptimise}
         \caption{
-            \begin{center}
                 Схема оптимизированного алгоритма Винограда
-            \end{center}}
+            }
         \label{fig:opt_vinograd}
     \end{figure}
 
@@ -467,26 +469,17 @@
     Данный раздел содержит обоснование выбора языка и среды разработки, реализацию алгоритмов.
 
 
-    \section{Требования к программному обеспечению}
-    Требования, выдвигаемые к разрабатываемому ПО:
-    \begin{itemize}
-        \item входные данные - размеры двух матриц, их элементы;
-        \item выходные данные - матрица, являющаяся произведением первой входной матрицы на вторую.
-    \end{itemize}
-
-
     \section{Средства реализации}
     Для реализации программы был выбран язык программирования Java~\cite{java}.
     Такой выбор обусловлен следующими причинами:
     \begin{itemize}
-        \item имеется большой опыт разработки;
         \item удобный и понятный синтаксис;
         \item обладает информативной документацией.
     \end{itemize}
 
 
     \section{Реализация алгоритмов}
-    В листингах \ref{code:classic} - \ref{code:vinogradCasual} представлены
+    В листингах~\ref{code:classic} -~\ref{code:vinogradCasual} представлены
     реализации рассматриваемых алгоритмов.
 
     \begin{lstlisting}[caption=Классический алгоритм, label={code:classic}]
@@ -521,7 +514,7 @@ public class MatrixClassicMultiplier implements MatrixMultiplier {
 }
     \end{lstlisting}
 
-    \begin{lstlisting}[caption=Алгоритм Копперсмита-Винограда, label=code:vinogradCasual, justification=RaggedRight]
+    \begin{lstlisting}[caption=Алгоритм Копперсмита-Винограда, label=code:vinogradCasual]
     public class MatrixVinogradMultiplier implements MatrixMultiplier {
     @Override
     public int[][] multiply(int[][] m1, int[][] m2) {
@@ -578,7 +571,7 @@ public class MatrixClassicMultiplier implements MatrixMultiplier {
 }
     \end{lstlisting}
 
-    \begin{lstlisting}[caption=Оптимизированный алгоритм Копперсмита-Винограда, label={lst:optVinograd}, justification=RaggedRight]
+    \begin{lstlisting}[caption=Оптимизированный алгоритм Копперсмита-Винограда, label={lst:optVinograd}]
 public class MatrixVinogradOptimisedMultiplier implements MatrixMultiplier {
     @Override
     public int[][] multiply(int[][] m1, int[][] m2) {
@@ -636,7 +629,7 @@ public class MatrixVinogradOptimisedMultiplier implements MatrixMultiplier {
 
 
     \section{Тестирование}
-    В таблице \ref{tab:tests} представлены использованные для тестирования методом "черного ящика" данные,
+    В таблице~\ref{tab:tests} представлены использованные для тестирования методом "черного ящика" данные,
     были рассмотрены все возможные тестовые случаи. Все тесты пройдены успешно.
     \begin{table}[h]
         \begin{center}
@@ -815,20 +808,27 @@ public class MatrixVinogradOptimisedMultiplier implements MatrixMultiplier {
 
 
     \section{Пример работы программы}
-    Пример работы программы представлен на рисунках \ref{fig:work_example1}-\ref{fig:work_example1}.
-    \captionsetup{singlelinecheck=true}
+    Пример работы программы представлен на рисунках~\ref{fig:example1}-\ref{fig:example3}.
+
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.7\linewidth]{images/example1}
+        \includegraphics[width=0.7\linewidth]{img/example1}
         \caption{Ввод данных}
-        \label{fig:work_example1}
+        \label{fig:example1}
     \end{figure}
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.7\linewidth]{images/example2}
+        \includegraphics[width=0.7\linewidth]{img/example2}
         \caption{Результат работы программы}
-        \label{fig:work_example2}
+        \label{fig:example2}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\linewidth]{img/example2}
+        \caption{Результат работы программы}
+        \label{fig:work_example3}
     \end{figure}
 
 
@@ -856,34 +856,26 @@ public class MatrixVinogradOptimisedMultiplier implements MatrixMultiplier {
     \begin{table}[h]
         \begin{center}
             \captionsetup{justification=raggedleft, singlelinecheck=false}
-            \caption{\label{table:time} Время дада}
+            \caption{\label{table:time} Время работы алгоритмов}
             \begin{tabular}{|c c c c|}
                 \hline
                 Размер & Классич. & Виноград & Опт.Виноград\\ [0.5ex]
                 \hline
-                10     & 7626     & 8432     & 6334         \\
+                10     & 2265     & 2515     & 2234         \\
                 \hline
-                11     & 10114    & 11119    & 8247         \\
+                11     & 2640     & 2906     & 2640         \\
                 \hline
-                30     & 198387   & 200491   & 144975       \\
+                30     & 25218    & 28468    & 25331        \\
                 \hline
-                31     & 221763   & 221463   & 159228       \\
+                31     & 27015    & 30343    & 27390        \\
                 \hline
-                50     & 914673   & 913305   & 651054       \\
+                50     & 128906   & 130312   & 116562       \\
                 \hline
-                51     & 990919   & 975478   & 695120       \\
+                51     & 129375   & 139687   & 108750       \\
                 \hline
-                70     & 2568877  & 2492211  & 1768562      \\
+                70     & 335625   & 345000   & 315781       \\
                 \hline
-                71     & 2692695  & 2625663  & 1855013      \\
-                \hline
-                90     & 5472335  & 5286995  & 3717559      \\
-                \hline
-                91     & 5634068  & 5480780  & 3892148      \\
-                \hline
-                110    & 10070443 & 9613919  & 6775491      \\
-                \hline
-                111    & 10310690 & 9927475  & 7034633      \\
+                71     & 339062   & 367031   & 301406       \\
                 \hline
             \end{tabular}
         \end{center}
@@ -891,33 +883,31 @@ public class MatrixVinogradOptimisedMultiplier implements MatrixMultiplier {
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=1\linewidth]{images/odd_mat}
+        \includegraphics[width=0.75\linewidth]{img/graph_even}
         \caption{Сравнение времени работы алгоритмов умножения квадратных матриц четных размеров}
         \label{fig:odd_graph}
     \end{figure}
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=1\linewidth]{images/even_mat}
+        \includegraphics[width=0.75\linewidth]{img/graph_odd}
         \caption{Сравнение времени работы алгоритмов умножения квадратных матриц нечетных размеров}
         \label{fig:even_graph}
     \end{figure}
 
 
     \section{Вывод}
-
     По результатам проведенных замеров видно, что оптимизированный алгоритм Винограда
-    работает в 1.2-1.5 раза быстрее классического алгоритма умножения матриц с увеличением этого
+    работает В 1.2 раза быстрее классического алгоритма умножения матриц с увеличением этого
     коэффициента при увеличении размера матрицы.
     Важно заметить, что коэффициент незначительно меньше для матриц нечетных размеров,
     что говорит о более медленной работе оптимизированного алгоритма Винограда для таких матриц,
     в то время как классический алгоритм зависимости от четности размеров не имеет.
 
-    Алгоритм Винограда на четных матрицах меньше 50x50 работает медленнее классического алгоритма,
-    на больших - чуть быстрее, однако разрыв составляет не более 1.05 раз.
-    В случае с нечетным размером матрицы алгоритм Винограда на небольших матрицах проигрывает классическому алгоритму,
-    но при увеличении размерности время работы обоих алгоритмов сопоставимо,
-    небольшим преимуществом алгоритма Винограда.
+    Обычный алгоритм Винограда на четных матрицах меньше 50x50 работает медленнее классического алгоритма,
+    на больших - практически одинаково, разрыв составляет не более 1.05 раз.
+    В случае с нечетным размером матрицы алгоритм Винограда проигрывает классическому алгоритму,
+    но при увеличении размерности время работы обоих алгоритмов сопоставимо.
     \newpage
 
     \addcontentsline{toc}{chapter}{Заключение}

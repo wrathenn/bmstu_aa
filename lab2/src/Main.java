@@ -5,11 +5,12 @@ import algs.MatrixVinogradOptimisedMultiplier;
 
 import java.util.Arrays;
 import java.util.Objects;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        if (args.length == 0 || args.length > 2) {
+        if (args.length == 0 || args.length > 3) {
             System.out.println("Некорректные аргументы" +
                     "(u - пользовательский ввод, " +
                     "t - тесты по времени, " +
@@ -17,17 +18,18 @@ public class Main {
             return;
         }
         if (Objects.equals(args[0], "t")) {
-            if (args.length == 1) {
+            if (args.length != 3) {
                 System.out.println("Некорректные аргументы" +
-                        "после t нужно написать количество повторов для аппроксимации");
+                        "после t нужно написать количество повторов для аппроксимации" +
+                        "и тип алгоритма - c/v/v+");
                 return;
             }
 
             try {
-                timeTest(Integer.parseInt(args[1]));
+                timeTest(Integer.parseInt(args[1]), args[2]);
             } catch (NumberFormatException e) {
                 System.out.println("Некорректные аргументы" +
-                        "после t нужно написать ЧИСЛО повторов");
+                        "после t нужно написать целое ЧИСЛО повторов");
             }
         } else if (Objects.equals(args[0], "n")) {
             unitTest();
@@ -36,26 +38,75 @@ public class Main {
         }
     }
 
-    private static void timeTest(int repeats) {
-        int[][] m1 = new int[][]{{1, 5, 2}, {1, 2, 8}, {1, 3, 2}};
-        int[][] m2 = new int[][]{{1, 4, 9}, {8, 8, 8}, {12, 21, 13}};
+    private static void timeTest(int repeats, String type) {
+        if (!Objects.equals(type, "c") && !Objects.equals(type, "v") && !Objects.equals(type, "v+")) {
+            System.out.println("Некорректный аргумент типа алгоритма (c/v/v+)");
+            return;
+        }
 
+        // Просто чтобы забить память :)
+        int[][] m1 = new int[][]{{1, 0, 0, 0}, {0, 1, 0, 0}, {0, 0, 1, 0}, {0, 0, 0, 1}};
+        int[][] m2 = new int[][]{{4, 8, -9, 5}, {-8, 7, 9, 0}, {7, 9, -1, 1}, {8, 5, 2, 8}};
         for (int i = 0; i < 3000000; i++) {
             new MatrixClassicMultiplier().multiply(m1, m2);
         }
 
-        MatrixAlgTester tester1 = new MatrixAlgTester(new MatrixClassicMultiplier(), m1, m2, repeats);
-        MatrixAlgTester tester2 = new MatrixAlgTester(new MatrixVinogradMultiplier(), m1, m2, repeats);
-        MatrixAlgTester tester3 = new MatrixAlgTester(new MatrixVinogradOptimisedMultiplier(), m1, m2, repeats);
+        MatrixAlgTester tester;
+        String name;
 
-        System.out.println("Для " + repeats + " повторов");
-        tester3.test("Алгоритм Винограда (оптимизированный)");
-        tester2.test("Алгоритм Винограда (обычный)");
-        tester1.test("Классический алгоритм:");
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+
+        {
+            System.out.println("Количество строк матрицы 1:");
+            int m1rows = scanner.nextInt();
+            System.out.println("Количество столбцов матрицы 1:");
+            int m1cols = scanner.nextInt();
+
+            m1 = new int[m1rows][m1cols];
+            for (int i = 0; i < m1rows; i++) {
+                for (int k = 0; k < m1cols; k++) {
+                    m1[i][k] = random.nextInt() % 100;
+                }
+            }
+        }
+
+        {
+            System.out.println("Количество строк матрицы 2:");
+            int m2rows = scanner.nextInt();
+            System.out.println("Количество столбцов матрицы 2:");
+            int m2cols = scanner.nextInt();
+
+            m2 = new int[m2rows][m2cols];
+            for (int i = 0; i < m2rows; i++) {
+                for (int k = 0; k < m2cols; k++) {
+                    m2[i][k] = random.nextInt() % 100;
+                }
+            }
+        }
+
+        switch (type) {
+            case "c" -> {
+                tester = new MatrixAlgTester(new MatrixClassicMultiplier(), m1, m2, repeats);
+                name = "Классический алгоритм:";
+            }
+            case "v" -> {
+                tester = new MatrixAlgTester(new MatrixVinogradMultiplier(), m1, m2, repeats);
+                name = "Алгоритм Винограда (обычный)";
+            }
+            case "v+" -> {
+                tester = new MatrixAlgTester(new MatrixVinogradOptimisedMultiplier(), m1, m2, repeats);
+                name = "Алгоритм Винограда (оптимизированный)";
+            }
+            default -> {
+                return;
+            }
+        }
+
+        tester.test(name);
     }
 
     private static void userTest() {
-        int key = -1;
         int[][] m1 = null;
         int[][] m2 = null;
 
