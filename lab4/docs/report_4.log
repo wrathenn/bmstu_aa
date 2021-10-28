@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.22)  27 OCT 2021 14:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.10.22)  28 OCT 2021 22:11
 entering extended mode
 **./report_4.tex
 (report_4.tex
@@ -967,8 +967,7 @@ File: l3backend-pdftex.def 2021-10-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count342
 \l__pdf_internal_box=\box73
 )
-(D:/IdeaProjects\bmstu_aa\lab4\out\report_4.aux
-(D:/IdeaProjects\bmstu_aa\lab4\out\title.aux))
+(report_4.aux (title.aux))
 \openout1 = `report_4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
@@ -1168,7 +1167,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--35
 
 
 {C:/Users/klusk/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./img/b_logo.jp
-g>]) (D:/IdeaProjects\bmstu_aa\lab4\out\report_4.toc)
+g>]) (report_4.toc)
 \tf@toc=\write4
 \openout4 = `report_4.toc'.
 
@@ -1176,881 +1175,135 @@ g>]) (D:/IdeaProjects\bmstu_aa\lab4\out\report_4.toc)
 
 
 
-]
-
-LaTeX Warning: Citation `Nemirovsky' on page 2 undefined on input line 116.
-
-
-LaTeX Warning: Citation `Olukotun' on page 2 undefined on input line 118.
-
-[2
+] [2
 
 ] [3]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
-report_4.tex:192: Missing $ inserted.
-<inserted text> 
-                $
-l.192 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-report_4.tex:192: Missing } inserted.
-<inserted text> 
-                }
-l.192 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-report_4.tex:192: Missing } inserted.
-<inserted text> 
-                }
-l.192 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-report_4.tex:192: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.192 
-      
-I'm guessing that you meant to end an alignment here.
-
-report_4.tex:192: Missing { inserted.
-<inserted text> 
-                {
-l.192 
-      
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-report_4.tex:192: Missing $ inserted.
-<inserted text> 
-                $
-l.192 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-report_4.tex:193: Missing $ inserted.
-<inserted text> 
-                $
-l.193             \Delta
-                         = \begin{vmatrix}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-report_4.tex:214: Package amsmath Error: Multiple \label's: label 'eq:det_3x3' 
-will be lost.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.214 ...3}a_{21}a_{32} - a_{13}a_{22}a_{31}\label
-                                                  {eq:equation}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-report_4.tex:215: Misplaced \crcr.
-\endaligned ->\crcr 
-                    \egroup \restorecolumn@ \egroup 
-l.215         \end{aligned}
-                           
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-report_4.tex:215: Extra }, or forgotten $.
-\endaligned ->\crcr \egroup 
-                            \restorecolumn@ \egroup 
-l.215         \end{aligned}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-report_4.tex:215: Extra }, or forgotten $.
-\endaligned ...cr \egroup \restorecolumn@ \egroup 
-                                                  
-l.215         \end{aligned}
-                           
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-report_4.tex:215: Missing $ inserted.
-<inserted text> 
-                $
-l.215         \end{aligned}
-                           
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-report_4.tex:215: Missing } inserted.
-<inserted text> 
-                }
-l.215         \end{aligned}
-                           
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
 [4
 
-]
-report_4.tex:229: Display math should end with $$.
-<to be read again> 
-                   M
-l.229         , \text{ РіРґРµ} $M
-                                 _{j}^{-1}$ - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р...
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-report_4.tex:229: Missing $ inserted.
-<inserted text> 
-                $
-l.229         , \text{ РіРґРµ} $M_
-                                  {j}^{-1}$ - РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Р№ Р...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-report_4.tex:230: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.230     \end{equation}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-report_4.tex:230: You can't use `\eqno' in horizontal mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.230     \end{equation}
-                        
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-report_4.tex:230: Missing $ inserted.
-<inserted text> 
-                $
-l.230     \end{equation}
-                        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-report_4.tex:230: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.230     \end{equation}
-                        
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-[5]
+] [5]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 <img/count_det.pdf, id=38, 1206.5075pt x 1240.635pt>
 File: img/count_det.pdf Graphic file (type pdf)
 <use img/count_det.pdf>
-Package pdftex.def Info: img/count_det.pdf  used on input line 259.
+Package pdftex.def Info: img/count_det.pdf  used on input line 264.
 (pdftex.def)             Requested size: 500.484pt x 514.62677pt.
-
-report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:263: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.263             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 [6
 
 ]
 <img/thread_schema.pdf, id=43, 510.90875pt x 779.91376pt>
 File: img/thread_schema.pdf Graphic file (type pdf)
 <use img/thread_schema.pdf>
-Package pdftex.def Info: img/thread_schema.pdf  used on input line 272.
+Package pdftex.def Info: img/thread_schema.pdf  used on input line 276.
 (pdftex.def)             Requested size: 425.41444pt x 649.39896pt.
-
-
-report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:276: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.276             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[7 <./img/count_det.pdf>]
-Overfull \vbox (25.22269pt too high) has occurred while \output is active []
-
-
-[8 <./img/thread_schema.pdf>]
+ [7 <./img/count_det.pdf>] [8 <./img/thread_schema.pdf>]
 <img/solver_part_1.pdf, id=52, 838.13126pt x 1240.635pt>
 File: img/solver_part_1.pdf Graphic file (type pdf)
 <use img/solver_part_1.pdf>
-Package pdftex.def Info: img/solver_part_1.pdf  used on input line 285.
+Package pdftex.def Info: img/solver_part_1.pdf  used on input line 288.
 (pdftex.def)             Requested size: 425.41444pt x 629.70552pt.
-
-
-report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.289             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.289             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.289             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.289             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.289             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:289: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.289             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[9]
-Overfull \vbox (5.52925pt too high) has occurred while \output is active []
-
-
-[10 <./img/solver_part_1.pdf>]
-<img/solver_part_2.pdf, id=60, 889.3225pt x 1241.63875pt>
+ [9]
+<img/solver_part_2.pdf, id=56, 889.3225pt x 1241.63875pt>
 File: img/solver_part_2.pdf Graphic file (type pdf)
 <use img/solver_part_2.pdf>
-Package pdftex.def Info: img/solver_part_2.pdf  used on input line 295.
+Package pdftex.def Info: img/solver_part_2.pdf  used on input line 297.
 (pdftex.def)             Requested size: 450.43253pt x 628.86984pt.
-
-
-report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:299: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.299             \end{center}}
-                               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (4.69357pt too high) has occurred while \output is active []
-
-
-[11 <./img/solver_part_2.pdf>] [12]
+ [10 <./img/solver_part_1.pdf>] [11 <./img/solver_part_2.pdf>] [12]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-
-LaTeX Warning: Citation `Python' on page 13 undefined on input line 341.
-
-
-LaTeX Warning: Reference `code:' on page 13 undefined on input line 351.
-
-
-LaTeX Warning: Reference `code:' on page 13 undefined on input line 351.
-
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-354.
+346.
 (C:\Users\klusk\AppData\Roaming\MiKTeX\tex/latex/cyrillic\t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-358.
+350.
 
 (C:\Program Files\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [13
 
-]
-
-report_4.tex:378: Package keyval Error: РєР»Р°СЃСЃ Solver Рё С„СѓРЅРєС†РёСЏ cal
-culateSumThreading undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.378 ... Рё С„СѓРЅРєС†РёСЏ calculateSumThreading]
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[14]
-
-report_4.tex:446: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446 ...self.threadCount - 1: #РїРѕСЃР»РµРґРЅРёР№
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-report_4.tex:446: Package inputenc Error: Invalid UTF-8 byte "BF.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446 ...self.threadCount - 1: #РїРѕСЃР»РµРґРЅРёР№
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-report_4.tex:446: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446 ...self.threadCount - 1: #РїРѕСЃР»РµРґРЅРёР№
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-report_4.tex:446: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446 ...self.threadCount - 1: #РїРѕСЃР»РµРґРЅРёР№
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-report_4.tex:446: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446 ...self.threadCount - 1: #РїРѕСЃР»РµРґРЅРёР№
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-report_4.tex:446: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446 ...self.threadCount - 1: #РїРѕСЃР»РµРґРЅРёР№
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-report_4.tex:446: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446 ...self.threadCount - 1: #РїРѕСЃР»РµРґРЅРёР№
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-report_4.tex:446: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446 ...self.threadCount - 1: #РїРѕСЃР»РµРґРЅРёР№
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-report_4.tex:446: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446 ...self.threadCount - 1: #РїРѕСЃР»РµРґРЅРёР№
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-
-report_4.tex:446: Package inputenc Error: Invalid UTF-8 byte sequence.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.446 ...self.threadCount - 1: #РїРѕСЃР»РµРґРЅРёР№
-                                                  
-The document does not appear to be in UTF-8 encoding.
-Try adding \UseRawInputEncoding as the first line of the file
-or specify an encoding such as \usepackage [latin1]{inputenc}
-in the document preamble.
-Alternatively, save the file in UTF-8 using your editor or another tool
-
-[15]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-report_4.tex:634: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.634 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[16] [17]
+] [14] [15] [16]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
+<img/example_1.jpg, id=87, 633.11531pt x 244.66406pt>
+File: img/example_1.jpg Graphic file (type jpg)
+<use img/example_1.jpg>
+Package pdftex.def Info: img/example_1.jpg  used on input line 520.
+(pdftex.def)             Requested size: 350.33727pt x 135.38696pt.
+<img/example_2.jpg, id=88, 586.44093pt x 314.67563pt>
+File: img/example_2.jpg Graphic file (type jpg)
+<use img/example_2.jpg>
+Package pdftex.def Info: img/example_2.jpg  used on input line 527.
+(pdftex.def)             Requested size: 350.33727pt x 187.98576pt.
+[17
 
-report_4.tex:650: LaTeX Error: File `images/example1' not found.
+ <./img/example_1.jpg> <./img/example_2.jpg>]
+<img/graph.jpg, id=92, 524.96124pt x 396.48125pt>
+File: img/graph.jpg Graphic file (type jpg)
+<use img/graph.jpg>
+Package pdftex.def Info: img/graph.jpg  used on input line 578.
+(pdftex.def)             Requested size: 400.38872pt x 302.40573pt.
+ [18] [19 <./img/graph.jpg>]
+[20
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.650 ...ics[width=0.7\linewidth]{images/example1}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:657: LaTeX Error: File `images/example2' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.657 ...ics[width=0.7\linewidth]{images/example2}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-report_4.tex:720: LaTeX Error: File `images/odd_mat' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.720 ...aphics[width=1\linewidth]{images/odd_mat}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-report_4.tex:727: LaTeX Error: File `images/even_mat' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.727 ...phics[width=1\linewidth]{images/even_mat}
-                                                  
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[18
-
-]
-Underfull \hbox (badness 7186) in paragraph at lines 735--746
-[]\T2A/cmr/m/n/12 По ре-зуль-та-там про-ве-ден-ных за-ме-ров вид-но, что оп-ти-
-ми-зи-ро-ван-ный ал-го-ритм
- []
-
-[19] [20
-
-] (D:/IdeaProjects\bmstu_aa\lab4\out\report_4.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 12--17
+] (report_4.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 31--36
 []\T2A/cmr/m/n/12 Сравните вы-пус-ки Windows 10 [Элек-трон-ный ре-сурс].  Ре-жи
 м до-сту-па:
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 12--17
+Underfull \hbox (badness 4647) in paragraph at lines 31--36
 \T2A/cmr/m/n/10.95 https://www.microsoft.com/ru-ru/windows/compare-windows-10-h
 ome-vs-pro\T2A/cmr/m/n/12 .  Да-та об-ра-ще-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--25
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 []\T2A/cmr/m/n/12 Процессор Intel\TS1/cmr/m/n/12 ® \T2A/cmr/m/n/12 Core\TS1/cmr
 /m/n/12 — \T2A/cmr/m/n/12 i5-3550 [Элек-трон-ный ре-сурс].  Ре-жим до-сту-па:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--25
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 \T2A/cmr/m/n/10.95 https://ark.intel.com/content/www/ru/ru/ark/products/97150/i
 ntel-core-i57600-processor-6m-
  []
 
 ) [21
 
-] (D:/IdeaProjects\bmstu_aa\lab4\out\report_4.aux
-(D:/IdeaProjects\bmstu_aa\lab4\out\title.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (report_4.aux (title.aux)) ) 
 Here is how much of TeX's memory you used:
- 32044 strings out of 478927
- 773360 string characters out of 2862391
- 1623465 words of memory out of 3000000
- 49339 multiletter control sequences out of 15000+600000
- 424458 words of font info for 83 fonts, out of 8000000 for 9000
+ 32013 strings out of 478927
+ 771345 string characters out of 2862391
+ 1607021 words of memory out of 3000000
+ 49321 multiletter control sequences out of 15000+600000
+ 425722 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,103p,732b,1739s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\klusk\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm10
-95.pk> <C:\Users\klusk\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcss1095.pk> <C:\Users\klusk\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi
-600\lasx1095.pk> <C:\Users\klusk\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a
-/dpi600\lass1095.pk> <C:\Users\klusk\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh
--t2a/dpi600\larm0600.pk> <C:\Users\klusk\AppData\Local\MiKTeX\fonts/pk/ljfour/l
-h/lh-t2a/dpi600\labx1440.pk> <C:\Users\klusk\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\klusk\AppData\Local\MiKTeX\fonts/p
-k/ljfour/lh/lh-t2a/dpi600\labx2488.pk> <C:\Users\klusk\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\klusk\AppData\Local\MiKTeX
-\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\klusk\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk><C:/Program Files/MiKTeX/font
-s/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
-les/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb>
-Output written on D:/IdeaProjects\bmstu_aa\lab4\out\report_4.pdf (22 pages, 560
-679 bytes).
+ 99i,16n,103p,732b,1703s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\klusk\AppData\Local\MiKTeX\fonts/pk/lj
+four/lh/lh-t2a/dpi600\larm1095.pk> <C:\Users\klusk\AppData\Local\MiKTeX\fonts/p
+k/ljfour/jknappen/ec/dpi600\tcsi1095.pk> <C:\Users\klusk\AppData\Local\MiKTeX\f
+onts/pk/ljfour/lh/lh-t2a/dpi600\lasi1095.pk> <C:\Users\klusk\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1095.pk> <C:\Users\klusk\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lass1095.pk> <C:\Users\klusk\AppData\
+Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1095.pk> <C:\Users\klusk\AppD
+ata\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\Users\klusk\
+AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\kl
+usk\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Us
+ers\klusk\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2488.pk> <C
+:\Users\klusk\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk
+> <C:\Users\klusk\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm120
+0.pk> <C:\Users\klusk\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lab
+x1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on report_4.pdf (22 pages, 672069 bytes).
 PDF statistics:
- 560 PDF objects out of 1000 (max. 8388607)
+ 609 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
