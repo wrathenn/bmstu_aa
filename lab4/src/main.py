@@ -7,9 +7,9 @@ import numpy as np
 
 
 class Matrix:
-    mult = 0
-    size = 0
-    matrix = []
+    mult: int = 0
+    size: int = 0
+    matrix: list[float][float] = []
 
     def __init__(self, size, mult=1, matrix=None):
         self.mult = mult
@@ -68,7 +68,7 @@ def calculateDetThreading(matrixes, returnList: list):
 
 class Solver:
     def __init__(self, size: int = 0, matrix: Matrix = None):
-        self.m = matrix
+        self.m: Matrix = matrix
         if size == 0: size = 9
         if self.m is None:
             self.m = Matrix(size).randomize()
